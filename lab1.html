@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="keywords" content="Pursottam Bhandari" />
+    <meta
+      name="description"
+      content="This is my short description of this web page as Lab1."
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/download.png" type="image/x-icon" />
+    <title>Lab1</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(210, 236, 173);
+      }
+      .page {
+        display: flex;
+        /* gap: 8px; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid rgb(38, 12, 240);
+        margin: 10px 250px 10px 250px;
+        padding-bottom: 9px;
+        border-radius: 10px;
+        /* display: flex; */
+      }
+      .input {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+      }
+      .text {
+        border: 1.5px solid black;
+        border-radius: 10px;
+      }
+      .submit {
+        color: red;
+        background-color: aqua;
+        border-radius: 10px;
+      }
+      .submit:hover {
+        background-color: blue;
+        color: white;
+      }
+      span {
+        color: blueviolet;
+      }
+
+      /* table css */
+      table {
+        border: black 1px solid;
+        width: 100%;
+      }
+      td#main-part {
+        width: 75%;
+        background-color: red;
+      }
+      td#side-part {
+        width: 25%;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- table html -->
+    <table>
+      <tr>
+        <td id="main-part">
+          <div class="page">
+            <h2>Hey buddy! Welcome to <span>ASIAN</span> Search</h2>
+            <p>Let's try to <strong>Research</strong> New Things.</p>
+            <img
+              src="/assets/searching-images1619473572572954.jpg"
+              height="150px"
+              width="250px"
+              alt="ups! sorry. It's not working properly"
+            />
+            <div class="input">
+              <input
+                class="text"
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Do Research as your Wish"
+              />
+              <input class="submit" type="submit" value="Search" />
+            </div>
+          </div>
+        </td>
+        <td id="side-part">
+          <div>
+            <h2>Recent Search</h2>
+            <ul>
+              <li>ram</li>
+              <li>hari</li>
+              <li>sita</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
