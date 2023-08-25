@@ -17,11 +17,11 @@
     <form action="" method="post">
         <div>
             <label for="">Username: </label>
-            <input type="text" name="username" value="username">
+            <input type="text" name="username" placeholder="username">
         </div>
         <div>
             <label for="">Password: </label>
-            <input type="password" name="pwd">
+            <input type="password" name="pwd" placeholder="username">
         </div>
         <div>
             <input type="color" name="black" id="black">
